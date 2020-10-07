@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'container_card.dart';
 
 class CustomIcon extends StatelessWidget {
   CustomIcon(this.icon, this.label);
