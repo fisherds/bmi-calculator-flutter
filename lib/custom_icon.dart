@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
 class CustomIcon extends StatelessWidget {
   CustomIcon(this.icon, this.label);
@@ -17,8 +18,7 @@ class CustomIcon extends StatelessWidget {
         SizedBox(
           height: 15,
         ),
-        Text(label.toUpperCase(),
-            style: TextStyle(fontSize: 18, color: Color(0xFF8D8E98)))
+        Text(label.toUpperCase(), style: kStandardTextStyle)
       ],
     );
   }
